@@ -1,6 +1,5 @@
 <Project Sdk="Microsoft.Build.Traversal/1.0.45">
   <ItemGroup>
-      <ProjectReference Include="WriteService/**/*.csproj" />
-      <ProjectReference Include="QueryService/**/*.csproj" />
+    <ProjectReference Include="**/*.csproj" />
   </ItemGroup>
 </Project>

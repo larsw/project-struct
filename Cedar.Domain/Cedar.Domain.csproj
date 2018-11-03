@@ -2,10 +2,10 @@
   <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.1" />
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <DefineConstants>TRACE;DEBUG;LIBLOG_PORTABLE, SIMPLE_JSON_INTERNAL, SIMPLE_JSON_TYPEINFO</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../../Cedar.Domain/Cedar.Domain.csproj" />
+    <PackageReference Include="Ensure.That" />
   </ItemGroup>
-
 </Project>

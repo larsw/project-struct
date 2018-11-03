@@ -1,9 +1,13 @@
 <Project>
   <ItemGroup>
-    <PackageReference Update="Microsoft.NET.Test.Sdk"   Version="[15.5.0]" />
-    <PackageReference Update="MSTest.TestAdapter"       Version="[1.1.18]" />
-    <PackageReference Update="MSTest.TestFramework"     Version="[1.1.18]" />
+    <PackageReference Update="Ensure.That"              Version="[8.0.0]"  />
+    <PackageReference Update="PowerAssert"              Version="[1.0.85]" />
+    <PackageReference Update="CompareNETObjects"        Version="[4.57.0]" />
+    <PackageReference Update="Inflector.NetStandard"    Version="[1.2.2]"  />
+    <PackageReference Update="Microsoft.NET.Test.Sdk"   Version="[15.8.0]" />
     <PackageReference Update="Newtonsoft.Json"          Version="[10.0.1]" />
-    <PackageReference Update="Cedar.Domain"             Version="[1.0.0]" />
+    <PackageReference Update="Cedar.Domain"             Version="[1.0.0]"  />
+    <PackageReference Update="xunit"                    Version="[2.4.1]"  />
+    <PackageReference Update="xunit.runner.visualstudio"     Version="[2.4.1]"  />
   </ItemGroup>
 </Project>

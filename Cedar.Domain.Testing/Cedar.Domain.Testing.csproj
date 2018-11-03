@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.1" />
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="../Cedar.Domain/Cedar.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CompareNETObjects" />
+        <PackageReference Include="Inflector.NetStandard" />
+        <PackageReference Include="PowerAssert" />
+    </ItemGroup>
+</Project>
